@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <properties>
+        <title>Plugin lobbycal</title>
+    </properties>
+    <body>
+        <section name="Plugin lobbycal">
+            <p>
+                <img src="images/lobbycal.png" />
+            </p>
+            <subsection name="Introduction">
+                <p>
+                    Ce plugin affiche les RDV et réunions avec les lobbyistes enregistrés
+                    sur une plate-forme <a href="https://lobbycal.greens-efa-service.eu">LobbyCal</a>.
+                </p>
+            </subsection>
+            <subsection name="Configuration">
+                <p>
+                    L'URL du serveur LobbyCal et la langue d'affichage doivent
+                    être définis dans le fichier <b>lobbycal.properties</b> comme suit :
+                </p>
+                <p>
+                    <pre>
+# Server URL ex : https://lobbycal.greens-efa-service.eu
+lobbycal.serverUrl=https://lobbycal.greens-efa-service.eu
+# Language ex : fr, en or other language available
+lobbycal.language=fr
+                    </pre>                  
+                </p>
+            </subsection>
+            <subsection name="Usage">
+                <p>
+<pre>                    
+http://myserver/[mycontext/]app/lobbycal  
+</pre>
+or                      
+<pre>                    
+http://myserver/[mycontext/]jsp/site/Portal.jsp?page=lobbycal  
+</pre>
+                </p>
+            </subsection>
+        </section>
+    </body>
+</document>
+

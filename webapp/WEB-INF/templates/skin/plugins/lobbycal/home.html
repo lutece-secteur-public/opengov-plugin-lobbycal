@@ -1,0 +1,51 @@
+<!-- -- -->
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-4 pull-right">
+            <img class="img-responsive" src="images/local/skin/plugins/lobbycal/lobbycal.jpg" alt="Transparency Lobby Calendar Logo" />
+        </div>
+        <div class="col-md-8 hipster img-responsive img-rounded">
+            <h1 class="ng-scope">#i18n{lobbycal.home.title}</h1>
+            <p class="lead">#i18n{lobbycal.home.lead}</p>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="container"
+             style="padding-top: 20px; padding-bottom: 20px;">
+            <table id="lobbycal" class="table">
+                <thead>
+                    <tr>
+                        <th>#i18n{lobbycal.home.start}</th>
+                        <th>#i18n{lobbycal.home.end}</th>
+                        <th>#i18n{lobbycal.home.firstName}</th>
+                        <th>#i18n{lobbycal.home.lastName}</th>
+                        <th>#i18n{lobbycal.home.partners}</th>
+                        <th>#i18n{lobbycal.home.meetingTitle}</th>
+                        <th>#i18n{lobbycal.home.tags}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+            <p>About | Imprint | Contact</p>
+        </div>
+    </div>
+</div>
+
+
+<!--  -- -->
+<script type="text/javascript" language="javascript">
+    meetingsUrl = "${server_url}/api/meetings/dt/"; // 41,9,8,44,45,46,47,48,54,55,56,26";
+    lcLanguage = "${language}";
+</script>
+
+<script type="text/javascript" language="javascript" src="js/plugins/lobbycal/jquery.dataTables.min.js"  ></script>
+<script type="text/javascript" language="javascript" src="js/plugins/lobbycal/moment.min.js"  ></script>
+<script type="text/javascript" language="javascript" src="js/plugins/lobbycal/datetime-moment.js"  ></script>
+<script type="text/javascript" language="javascript" src="js/plugins/lobbycal/moment.min.js"  ></script>
+<script type="text/javascript" language="javascript" src="js/plugins/lobbycal/jquery.spring-friendly.js"></script>
+<script type="text/javascript" language="javascript" src="js/plugins/lobbycal/lobbycal.js"></script>
+

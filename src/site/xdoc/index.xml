@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <properties>
+        <title>Plugin lobbycal</title>
+    </properties>
+    <body>
+        <section name="Plugin lobbycal">
+            <p>
+                <img src="images/lobbycal.png" />
+            </p>
+            <subsection name="Introduction">
+                <p>
+                    This plugin displays meetings with lobbyists registered by a 
+                    <a href="https://lobbycal.greens-efa-service.eu">LobbyCal</a> server
+                    on a Lutece site.
+                </p>
+            </subsection>
+            <subsection name="Configuration">
+                <p>
+                    The URL of the LobbyCal server and the language shoul be defined 
+                    in the <b>lobbycal.properties</b> file as follow :
+                </p>
+                <p>
+                    <pre>
+# Server URL ex : https://lobbycal.greens-efa-service.eu
+lobbycal.serverUrl=https://lobbycal.greens-efa-service.eu
+# Language ex : fr, en or other language available
+lobbycal.language=fr
+                    </pre>                  
+                </p>
+            </subsection>
+            <subsection name="Usage">
+                <p>
+<pre>                    
+http://myserver/[mycontext/]app/lobbycal  
+</pre>
+or                      
+<pre>                    
+http://myserver/[mycontext/]jsp/site/Portal.jsp?page=lobbycal  
+</pre>
+                </p>
+                
+            </subsection>
+        </section>
+    </body>
+</document>
+
