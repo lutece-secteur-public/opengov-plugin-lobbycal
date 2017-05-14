@@ -1,7 +1,7 @@
 
 # Plugin lobbyCal for Lutece
 
-![](http://dev.lutece.paris.fr/plugins/plugin-lobbycal/images/lobbycal.png)
+![](http://dev.lutece.paris.fr/plugins/plugin-lobbycal/images/lobbycal.jpg)
 
 ## Introduction
 
