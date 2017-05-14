@@ -1,19 +1,17 @@
 
-#Plugin lobbycal
+# Plugin lobbyCal for Lutece
 
 ![](http://dev.lutece.paris.fr/plugins/plugin-lobbycal/images/lobbycal.png)
 
-##Introduction
+## Introduction
 
 This plugin displays meetings with lobbyists registered by a [LobbyCal](https://lobbycal.greens-efa-service.eu) server on a Lutece site.
 
-##Configuration
+## Configuration
 
 The URL of the LobbyCal server and the language shoul be defined in the **lobbycal.properties** file as follow :
 
-
 ```
-
 # Server URL ex : https://lobbycal.greens-efa-service.eu
 lobbycal.serverUrl=https://lobbycal.greens-efa-service.eu
 # Language ex : fr, en or other language available
@@ -21,20 +19,14 @@ lobbycal.language=fr
                     
 ```
 
+## Usage
 
-##Usage
-
-
-```
-                    
+```               
 http://myserver/[mycontext/]app/lobbycal  
-
 ```
 or
-```
-                    
+```                 
 http://myserver/[mycontext/]jsp/site/Portal.jsp?page=lobbycal  
-
 ```
 
 
